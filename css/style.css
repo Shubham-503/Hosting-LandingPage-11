@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+
+    background-color: #fdfeff;
+}
+p{
+    font-size:1.6rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:.62rem 1.57rem;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+}
+
+.list{
+    display: flex;
+    gap: 3.75rem;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.list-item:hover{
+    font-weight: 600;
+}
+
+.register-btn{
+    text-decoration: none;
+    color: #3bb0ff;
+    padding: .62rem 1.56rem;
+    border:2px solid #3bb0ff;
+    border-radius: 10px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.75rem;
+    margin-right: 1.57rem;
+    margin-left: 1.57rem;
+    gap: 3.12rem;
+    margin-bottom: 6.25rem;
+}
+
+.banner-desc{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.42rem;
+}
+.banner1-right{
+    width: 50%;
+}
+.banner1-right>img,.banner2-left>img,.banner3-right>img{
+    width: 40vw;
+}
+
+.banner-title{
+    font-size: 3.43rem;
+    color: #14263f;
+}
+
+.banner-info{
+    margin: 1.57rem 0;
+    color: gray;
+    line-height: 2.57rem;
+}
+.banner-cta{
+    text-decoration: none;
+    padding: 1.25rem 2.18rem;
+    background-color: #3bb0ff;
+    /* border: 2px solid #3bb0ff; */
+    align-self: flex-start;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 10px;
+    /* width: 210px; */
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.57rem;
+    margin-left: 3.75rem;
+}
+
+.services-title{
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-title>h1{
+    font-size: 3.12rem;
+}
+
+.services-title>p{
+    font-size: 1.6rem;
+    color: gray;
+}
+
+.services-list{
+    margin-top: 3.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 40%; */
+    /* gap: 1.57rem; */
+}
+
+.service{
+    width: 30%;
+    gap: 6.25rem;
+}
+
+.service>img{
+margin:1.57rem 0;
+width: 3.75rem;
+height: 3.75rem;
+}
+
+.service>h4{
+font-size: 1.56rem;
+color: #14263f;
+}
+
+.service>p{
+    color: gray;
+    margin: 1.57rem 0;
+    font-size: 1.6rem;
+    padding-right:1.57rem ;
+}
+
+.pricing-benefit{
+    display: flex;
+}
+.pricing-benefit>img{
+    width: 1.25rem;
+}
+
+.pricing-plans{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3bb0ff;
+    padding: 3.75rem;
+}
+
+.xyz{
+    display: flex;
+    width: 100%;
+    gap: 2.5rem;
+    justify-content: space-around;
+    padding: 1.25rem;
+}
+
+.pricing-title{
+    color: #fff;
+    font-size: 3.12rem;
+    margin-bottom: 1.57rem;
+}
+.pricing{
+    background-color: #fff;
+    /* padding: 2.5rem 2.25rem; */
+    width: 360px;
+    border-radius: 10px;
+    /* padding-right: 70px; */
+
+}
+.pricing-card{
+    padding:1.57rem 2.25rem;
+
+}
+
+.pricing-card>h4{
+    font-size: 1.57rem;
+    margin-bottom: 1.25rem;
+    color: #14263f;
+}
+
+.pricing-card>p{
+    margin-top: 1.57rem;
+    font-size: 1.3rem;
+    color: gray;
+    /* padding-bottom: 12px */
+}
+
+.pricing-benefits{
+    margin-top: 1.57rem;
+    
+}
+
+.pricing-benefit{
+    margin-bottom: 1.57rem;
+    gap: .62rem;
+    padding:0 2.25rem;
+
+}
+
+.pricing-benefit>p{
+    font-size: 1.6rem;
+}
+
+
+.price{
+    text-align: center;
+
+    margin-bottom: 2.5rem;
+    
+}
+.price>h3{
+    font-size: 1.57rem;
+}
+
+.price>h3>span{
+    color: gray;
+}
+
+.price>p{
+    font-weight: 300;
+    color: gray;
+}
+
+.pricing-cta{
+   
+    /* margin-left: 3.12rem; */
+    margin-bottom: 2.5rem;
+    margin-left: 5.62rem;
+
+}
+.cta{
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 2px solid #3bb0ff;
+    border-radius: 10px;
+    color: #3bb0ff;
+    padding: .62rem 1.56rem;
+
+}
+.cta-active{
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    color: #fff;
+    padding: .62rem 1.56rem; 
+    background-color: #3bb0ff;
+
+}
+
+.pricing-card-active{
+    background-color: #353535;
+    border-radius: 10px;
+    color: #fff;
+    padding:1.57rem 2.25rem;
+    /* padding: ; */
+}
+
+.pricing-card-active>h4{
+    color: #fff;
+    
+}
+
+.feedbacks{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   margin: 12.5rem 3.75rem;
+}
+
+.feedback-title{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.feedback-title>h4{
+    font-size: 2.5rem;
+    color: #14263f;
+}
+
+.feedback-title>p{
+    margin-top: 1.57rem;
+    margin-bottom: 1.57rem;
+    color: gray;
+}
+
+.feedback-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    /* width: 50%; */
+}
+
+.feedback-box{
+    padding: 1.25rem;
+    padding-right: 1.57rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border:1px solid gray;
+    margin-bottom: 1.25rem;
+    border-radius: 10px;
+}
+
+.feedback-user{
+    display: flex;
+    margin-top: 1.25rem;
+}
+.user{
+    margin-left: .62rem;
+}
+
+.feedback-box1{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px;
+}
+
+/* linear-gradient(to right, #09b8f7 0%, #056aec 100%); */
+
+.register-banner{
+    display: flex;
+    
+    align-items: center;
+    background: linear-gradient(to right, #3bb0ff 0%, #14263fc7 100%);
+    gap: 5rem;
+    padding: 12rem 1.57rem;
+    justify-content: space-around;
+}
+
+.register-left{
+    width :50%;
+    padding-left: 1.57rem;
+}
+
+.register-left>h3{
+    font-size: 3.12rem;
+    color: white;
+}
+.register-left>p{
+    color: white;
+}
+
+
+.register-right-btn{
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: .62rem 1.56rem;   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 6.25rem 1.57rem;
+}
+.footer-section{
+    max-width: 12.5rem;
+     /* take a look */
+
+}
+
+.footer-section1>img{
+    width: 80px;
+    /* margin-bottom: 1.25rem; */
+}
+
+
+.footer-section1{
+    max-width: 18.75rem;
+}
+
+.footer-section>p{
+    color: gray;
+    margin: 1.25rem 0;
+    font-size: 1.4rem;
+}
+
+.footer-section>h3{
+    font-size: 1.37rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer-section5>img{
+    width: 30px;
+}
