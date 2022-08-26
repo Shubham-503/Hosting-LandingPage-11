@@ -23,12 +23,12 @@
 
 - # [Live Link](https://hosting-landingpage-11.netlify.app/)
 
-![Screenshots](/assets/thumbnail.PNG)
-![Screenshots](/assets/thumbnail2.PNG)
-![Screenshots](/assets/thumbnail3.PNG)
-![Screenshots](/assets/thumbnail4.PNG)
-![Screenshots](/assets/thumbnail5.PNG)
-![Screenshots](/assets/thumbnail6.PNG)
+![Screenshots](/assets/thumbnail.png)
+![Screenshots](/assets/thumbnail2.png)
+![Screenshots](/assets/thumbnail3.png)
+![Screenshots](/assets/thumbnail4.png)
+![Screenshots](/assets/thumbnail5.png)
+![Screenshots](/assets/thumbnail6.png)
 ![Screenshots](/assets/thumbnail7.PNG)
 ![Screenshots](/assets/thumbnail8.PNG)
 ![Screenshots](/assets/thumbnail9.PNG)
