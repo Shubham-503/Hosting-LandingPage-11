@@ -1,27 +1,28 @@
-
 # Project Name: Hosting Landing Page
 
 ## Project Description
 
-> A  Hosting Landing Page UI developed using just HTML and CSS.
+> A Hosting Landing Page UI developed using just HTML and CSS.
 > Responsive design
 > Beautiful UI
 
 ## Technologies Used
- - HTML 
- - CSS with media queries
+
+- HTML
+- CSS with media queries
 
 ## My Learning
+
 - Learned to create navbar in minutes
 - learned to use flex wrap property
 - learned to use Media Query
 
 <br>
 
-#### It took around 4.5 hr to build 
- - livelink()
+#### It took around 4.5 hr to build
 
-# 
+- # [Live Link](https://hosting-landingpage-11.netlify.app/)
+
 ![Screenshots](/assets/thumbnail.PNG)
 ![Screenshots](/assets/thumbnail2.PNG)
 ![Screenshots](/assets/thumbnail3.PNG)
