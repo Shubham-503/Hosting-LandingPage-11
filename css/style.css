@@ -6,11 +6,42 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+:root {
+  --clr-light: #fdfeff;
+  --clr-dark: #353535;
+  --clr-primary: #14263f;
+  --clr-secondary: gray;
+  --foreground: var(--clr-dark);
+  --background: var(--clr-light);
+}
+
+.darkMode {
+  --clr-light: #fdfeff;
+  --clr-dark: #353535;
+  --clr-primary: #ede7f6;
+  --clr-secondary: rgb(199, 194, 194);
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark);
+}
+
+.dark-mode-toggle {
+  color: var(--foreground);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
 html {
   font-size: 62.5%;
 }
 body {
-  background-color: #fdfeff;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 p {
   font-size: 1.6rem;
@@ -82,12 +113,12 @@ nav {
 
 .banner-title {
   font-size: 3.43rem;
-  color: #14263f;
+  color: var(--clr-primary);
 }
 
 .banner-info {
   margin: 1.57rem 0;
-  color: gray;
+  color: var(--clr-secondary);
   line-height: 2.57rem;
 }
 .banner-cta {
@@ -96,7 +127,7 @@ nav {
   background-color: #3bb0ff;
   /* border: 2px solid #3bb0ff; */
   align-self: flex-start;
-  color: #fff;
+  color: var(--clr-light);
   font-size: 1.3rem;
   font-weight: 600;
   border-radius: 10px;
@@ -123,7 +154,7 @@ nav {
 
 .services-title > p {
   font-size: 1.6rem;
-  color: gray;
+  color: var(--clr-secondary);
 }
 
 .services-list {
@@ -147,11 +178,11 @@ nav {
 
 .service > h4 {
   font-size: 1.56rem;
-  color: #14263f;
+  color: var(--clr-primary);
 }
 
 .service > p {
-  color: gray;
+  color: var(--clr-secondary);
   margin: 1.57rem 0;
   font-size: 1.6rem;
   padding-right: 1.57rem;
@@ -181,12 +212,13 @@ nav {
 }
 
 .pricing-title {
-  color: #fff;
+  color: var(--background);
   font-size: 3.12rem;
   margin-bottom: 1.57rem;
 }
 .pricing {
-  background-color: #fff;
+  background-color: var(--background);
+  /* background-color: --; */
   /* padding: 2.5rem 2.25rem; */
   width: 360px;
   border-radius: 10px;
@@ -199,13 +231,13 @@ nav {
 .pricing-card > h4 {
   font-size: 1.57rem;
   margin-bottom: 1.25rem;
-  color: #14263f;
+  color: var(--clr-primary);
 }
 
 .pricing-card > p {
   margin-top: 1.57rem;
   font-size: 1.3rem;
-  color: gray;
+  color: var(--clr-secondary);
   /* padding-bottom: 12px */
 }
 
@@ -233,12 +265,12 @@ nav {
 }
 
 .price > h3 > span {
-  color: gray;
+  color: var(--clr-secondary);
 }
 
 .price > p {
   font-weight: 300;
-  color: gray;
+  color: var(--clr-secondary);
 }
 
 .pricing-cta {
@@ -258,21 +290,21 @@ nav {
   text-decoration: none;
   font-size: 1.25rem;
   border-radius: 10px;
-  color: #fff;
+  color: var(--clr-light);
   padding: 0.62rem 1.56rem;
   background-color: #3bb0ff;
 }
 
 .pricing-card-active {
-  background-color: #353535;
+  background-color: var(--foreground);
   border-radius: 10px;
-  color: #fff;
+  color: var(--background);
   padding: 1.57rem 2.25rem;
   /* padding: ; */
 }
 
 .pricing-card-active > h4 {
-  color: #fff;
+  color: var(--background);
 }
 
 .feedbacks {
@@ -289,13 +321,13 @@ nav {
 
 .feedback-title > h4 {
   font-size: 2.5rem;
-  color: #14263f;
+  color: var(--clr-primary);
 }
 
 .feedback-title > p {
   margin-top: 1.57rem;
   margin-bottom: 1.57rem;
-  color: gray;
+  color: var(--clr-secondary);
 }
 
 .feedback-boxes {
@@ -313,7 +345,7 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: left;
-  border: 1px solid gray;
+  border: 1px solid var(--clr-secondary);
   margin-bottom: 1.25rem;
   border-radius: 10px;
 }
@@ -327,7 +359,7 @@ nav {
 }
 
 .feedback-box1 {
-  background-color: #fff;
+  background-color: var(--background);
   box-shadow: 1px 1px 5px;
 }
 
@@ -337,7 +369,7 @@ nav {
   display: flex;
 
   align-items: center;
-  background: linear-gradient(to right, #3bb0ff 0%, #14263fc7 100%);
+  background: linear-gradient(to right, #3bb0ff 0%, var(--clr-primary) 100%);
   gap: 5rem;
   padding: 12rem 1.57rem;
   justify-content: space-around;
@@ -350,18 +382,18 @@ nav {
 
 .register-left > h3 {
   font-size: 3.12rem;
-  color: white;
+  color: var(--clr-light);
 }
 .register-left > p {
-  color: white;
+  color: var(--clr-light);
 }
 
 .register-right-btn {
   text-decoration: none;
   font-size: 1.25rem;
-  border: 2px solid #fff;
+  border: 2px solid var(--background);
   border-radius: 10px;
-  color: #fff;
+  color: var(--background);
   padding: 0.62rem 1.56rem;
 }
 
@@ -385,7 +417,7 @@ nav {
 }
 
 .footer-section > p {
-  color: gray;
+  color: var(--clr-secondary);
   margin: 1.25rem 0;
   font-size: 1.4rem;
 }
